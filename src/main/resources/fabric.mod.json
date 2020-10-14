@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rigmod",
+  "version": "${version}",
+  "name": "Random Item Generator Fabric (RIGMOD)",
+  "description": "This mod adds Random Item Generator block. Every time you mine this block it will drop a random item. If you mine with a silk touch pickaxe it will drop itself. If you break with a fortune pickaxe it can drop multiple items at once.",
+  "authors": [
+    "mitat"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rigmod/textures/block/random_item_generator_block.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mitat.rigmod.client.RigmodClient"
+    ],
+    "main": [
+      "com.mitat.rigmod.Rigmod"
+    ]
+  },
+  "mixins": [
+    "rigmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.1+build.209",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rigmod:block/random_item_generator_block"
+  }
+}

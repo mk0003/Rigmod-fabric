@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rigmod:block/random_item_generator_block"
+    }
+  }
+}
